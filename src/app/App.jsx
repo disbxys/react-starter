@@ -1,8 +1,8 @@
 import React from "react";
-import Content from 'app/Content';
-import NavBar from 'app/NavBar.jsx';
-import {UserProvider} from "src/hook/User";
+import {UserProvider} from "../hook/User";
 import styled from "styled-components";
+import NavBar from "./NavBar";
+import Content from "./Content";
 
 const StyledDiv = styled.div`
     display: flex;
