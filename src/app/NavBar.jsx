@@ -10,14 +10,12 @@ const StyledNav = styled.nav`
     width: calc(100vw - 10px);
     height: 50px;
     padding: 5px;
-
-    background-color: #7d8591;
 `;
 
 const StyledNavLink = styled(NavLink)`
     padding: 10px;
     font-size: 25px;
-    color: #c97a04;
+    color: yellow;
     font-weight: 600;
     text-decoration: none;
     text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black
